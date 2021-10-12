@@ -10,7 +10,8 @@
  * ### Related Docs
  * - {@link  https://github.com/snowflakedb/snowflake-connector-nodejs/blob/master/lib/errors.js List of error codes and error factory createError()}
  */
-export enum ErrorCode {
+// tslint:disable-next-line:no-const-enum
+export const enum ErrorCode {
     // 400001
     ERR_INTERNAL_ASSERT_FAILED = 400001,
     ERR_UNSUPPORTED_NODE_JS_VERSION = 400002,
