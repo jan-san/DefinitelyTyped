@@ -78,3 +78,7 @@ snowflake.createConnection({
     authenticator: '',
     token: '',
 });
+
+snowflake.ErrorCode; // $ExpectError
+snowflake.ErrorCode.NOT_AN_ERROR_CODE; // $ExpectError
+snowflake.ErrorCode.ERR_CONN_CONNECT_INVALID_CALLBACK; // $ExpectNumber
